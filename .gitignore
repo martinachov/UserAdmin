@@ -1,0 +1,9 @@
+.classpath
+.project
+.tern-project
+target/
+.settings/
+.mvn/
+bin/
+data/
+*~
