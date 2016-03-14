@@ -1,4 +1,4 @@
-package ar.com.project.entitie;
+package ar.com.project.entities;
 
 import java.util.List;
 
