@@ -35,4 +35,9 @@ public class UserService {
 		userBO.delete(id);
 	}
 	
+	@RequestMapping(method=RequestMethod.PUT, value = "/assignProfile/{userId}/{profile}")
+	public UserDTO assignProfile(@PathVariable Long userId, @PathVariable String profile ){
+		return userBO.assignProfile(userId, profile);
+	}
+	
 }
